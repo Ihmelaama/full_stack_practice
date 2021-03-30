@@ -1,0 +1,12 @@
+{
+    "enemies":[
+        {"id":"Enemy1", "name":"orc", "attack":1, "defense":1, "health":4},
+        {"id":"Enemy2", "name":"goblin", "attack":1, "defense":1, "health":4},
+        {"id":"Enemy3", "name":"dorc", "attack":1, "defense":2, "health":8}
+    ],
+    "heroes":[
+        {"id":"Hero1", "name":"villager", "attack":1, "defense":1, "health":6},
+        {"id":"Hero2", "name":"burly villager", "attack":2, "defense":2, "health":8},
+        {"id":"Hero3", "name":"knight", "attack":3, "defense":3, "health":12}
+    ]
+}

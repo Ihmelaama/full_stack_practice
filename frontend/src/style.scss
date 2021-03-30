@@ -1,0 +1,78 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.itemGroup {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.025);
+  margin: 5vmin;
+  padding: 5vmin;
+  width: calc(100% - 20vmin);
+  height: 30vh;
+  //display: table;
+  text-align: center;
+  //border-spacing: 3vw;
+}
+
+.itemGroup h2 {
+  position: absolute;
+  top: 1vmin;
+  left: 1vmin;
+  margin: 0;
+}
+
+.itemGroup:nth-child(1) {
+  position: fixed;
+  top: 0px;
+}
+
+.itemGroup:nth-child(2) {
+  position: fixed;
+  bottom: 0px;
+}
+
+.itemGroup .card {
+  //display: table-cell;
+  display: inline-block;
+  //margin: 0 1vw;
+  max-width: 15vw;
+  vertical-align: text-top;
+}
+
+.itemGroup .spacer {
+  display: inline-block;
+  width: 2vw;
+}
+
+.card {
+  border: 1px solid #aaa;
+  background-color: #ddd;
+  width: 25vw;
+  height: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1.5vw;
+  box-sizing: border-box;
+}
+
+.card.hovered {
+  background-color: #eee;
+}
+
+.card span {
+  display: block;
+  text-align: left;
+}
+
+.card span.name {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2vmin;
+}

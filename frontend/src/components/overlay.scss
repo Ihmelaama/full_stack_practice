@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay > div {
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 15vw);
+  top: calc(50% - 10vw);
+  width: 30vw;
+  height: 20vw;
+}
+
+.overlay span {
+  display: block;
+}
